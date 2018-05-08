@@ -49,7 +49,7 @@ An Ansible Role to deploy job templates in Ansible Tower.
   vars_files:
     - "vars/myvault.yml"
   roles:
-    - role: "tower-job-template"
+    - role: "genie-job-templates"
       tower_url: "https:/my-tower-server.foo.bar"
       tower_verify_ssl: False
       tower_secrets: False

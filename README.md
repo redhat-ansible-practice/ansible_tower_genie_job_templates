@@ -5,8 +5,8 @@ An Ansible Role to deploy job templates in Ansible Tower.
 |Variable Name|Default Value|Required|Description|
 |:---:|:---:|:---:|:---:|
 |`tower_url`|""|yes|URL to the Ansible Tower Server.|
-|`tower_verify_ssl`|True|no|Whether or not to validate the Ansible Tower Server's SSL certificate.|
-|`tower_secrets`|True|yes|Whether or not to include variables stored in vars/tower-secrets.yml.  Set this value to `False` if you will be providing your sensitive values from elsewhere.|
+|`tower_verify_ssl`|False|no|Whether or not to validate the Ansible Tower Server's SSL certificate.|
+|`tower_secrets`|False|yes|Whether or not to include variables stored in vars/tower-secrets.yml.  Set this value to `False` if you will be providing your sensitive values from elsewhere.|
 |`tower_user`|""|yes|Admin User on the Ansible Tower Server.|
 |`tower_pass`|""|yes|Tower Admin User's password on the Ansible Tower Server.  This should be stored in an Ansible Vault at vars/tower-secrets.yml or elsewhere and called from a parent playbook.|
 |`tower_jt_name`|""|yes|Name of the job template to create in Ansible Tower.|

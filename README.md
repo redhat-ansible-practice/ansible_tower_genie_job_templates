@@ -63,6 +63,8 @@ An Ansible Role to deploy job templates in Ansible Tower.
       tower_jt_playbook: "playbooks/deploy_app_stack.yml"
       tower_jt_limit: "App_Servers"
 ```      
+## License
+[MIT](LICENSE)
 
 ## Author
-[Andrew J. Huffman](mailto:ahuffman@redhat.com)
+[Andrew J. Huffman](https://github.com/ahuffman)

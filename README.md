@@ -1,4 +1,4 @@
-# genie-job-templates
+# ansible_tower_genie_job_templates
 ## Description
 An Ansible Role to deploy job templates in Ansible Tower.
 ## Variables
